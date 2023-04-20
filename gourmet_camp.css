@@ -1,0 +1,284 @@
+body {
+    background-color: white;
+    margin : 0;
+    font-family: "游ゴシック",YuGothic;
+}
+
+img {
+    vertical-align: bottom;
+}
+
+header {
+    background-image: url(img/gourmet-top.png);
+    background-size: cover;
+    padding: 20px 0 50px 0;
+    min-width: 1200px;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 1200px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.header_upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display:flex;
+    gap:30px;
+    list-style:none;
+    color:white;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.top {
+    text-align: center;
+}
+
+form {
+    background-color: rgba(255,255,255,0.5);
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+main {
+   display: flex;
+}
+
+.main_left {
+    width: 800px;
+    margin-right:50px;
+
+}
+.main_left > section {
+    margin-bottom: 16px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+
+
+.border {
+    border-bottom : solid 1px orange;
+}
+
+.flex {
+    display: flex;
+}
+
+.icon_col {
+    width : 40px;
+}
+
+.content_col {
+    flex: 1;
+}
+
+.area .icon_col:before {
+    content: url(icon01.png);
+}
+
+.area .flex {
+    flex-wrap: wrap;
+}
+
+.area a {
+    text-decoration: none;
+    color: black;
+    border: solid 1px #80808052;
+    padding:5px 5px;
+    margin: 5px;
+    width: 40px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.spot .icon_col:before {
+    content: url(icon02.png);
+}
+
+.spot a {
+    text-decoration: none;
+    color: black;
+}
+
+.spot a:before {
+    content: '>';
+    color: orange;
+}
+
+.spot .flex {
+    flex-direction : column;
+    flex-wrap: wrap;
+    height: 80px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.genre .icon_col:before {
+    content: url(icon03.png);
+}
+
+.genre figure {
+    flex: 1;
+    padding: 0;
+    margin: 0;
+    text-align: center ;
+    border: solid 1px #80808052;
+}
+
+.genre figure img {
+    width: 100%;
+}
+
+.choice .icon_col:before {
+    content: url(icon04.png);
+}
+
+.choice .flex {
+    flex-wrap: wrap;
+}
+.choice a {
+    text-decoration: none;
+    color: black;
+    border: solid 1px #80808052;
+    padding:0 10px 0 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.recommend .icon_col:before {
+    content: url(icon05.png);
+}
+
+.recommend h1,.recommend h4{
+    margin:0;
+}
+
+.recommend h1 {
+    margin-right: 20px;
+}
+
+.recommend .sectionheader {
+    align-items: baseline;
+}
+
+.recommend figure {
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+    text-align: center ;
+    border: solid 1px #80808052;
+}
+
+.recommend figure img {
+    width: 75%;
+}
+
+.recommend h5 {
+    text-align : left;
+}
+
+.review .icon_col:before {
+    content: url(icon06.png);
+}
+
+.review .flex {
+    gap: 20px;
+}
+
+.review-col {
+    background-color: #eeeeee;
+    padding: 10px;
+    flex: 1;
+}
+
+.review-header {
+    border-bottom: solid 1px #cccccc;
+    padding-bottom: 5px;
+}
+
+.user-info {
+    flex: 1;
+}
+
+.review-img {
+    flex: 1;
+}
+
+.review-body .flex {
+    gap: 10px;
+}
+
+.review-img img {
+    width: 100%;
+}
+
+.main_right {
+    width: 270px;
+}
+
+.loginuser {
+    background-color: #fff8dc;
+    padding: 40px;
+}
+
+.loginuser-inner{
+    background-color:#eeeeee;
+    padding: 10px;
+}
+
+.user {
+    border-bottom: solid 1px #cccccc;
+}
+
+.userinfo {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.camp {
+    padding-top: 20px;
+}
+
+.camp img {
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+
+footer {
+    border-top: solid 2px #80808033;
+    background-size: cover;
+    min-width: 1200px;
+}
+
+.footer_nav {
+    display: flex;
+    gap:40px;
+    padding:40px 0;
+    margin: 0;
+    list-style:none;
+    justify-content: center;
+}
+
+.copy {
+    text-align: center;
+    background-color: #dcd5d5;
+    padding : 20px;
+}
